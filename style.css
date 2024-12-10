@@ -1,0 +1,147 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.container{ 
+    max-width: 1220px; 
+    margin: 0 auto; 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: 800;
+    color: red;
+}
+header{
+    padding: 46px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul li a{
+    color: black;
+}
+.k{
+    background-image: url(./image\ 4\ \(1\).png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.b{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: red;
+    padding: 12px 24px;
+    color: white;
+    border: 2px solid #DE2E54 ;
+   border-radius: 8px;  
+}
+.btn:hover{
+    background-color: white;
+    color: #DE2E54;
+}
+.doctor{
+    display: flex;
+    justify-content: right;
+}
+.k .container{
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+.bb{
+    text-align: center;
+    background-color: #0EB4C1;
+    margin-bottom: -70px;
+    
+}
+.sc{
+    background-color: #0EB4C1;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 60px;
+}
+button{
+    background-color: #38CC8B;
+    color: white;
+    width: 300px;
+    border: solid none;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin: 50px auto;
+}
+.nn{
+    place-self: 50px 0;
+}
+.nn h1{
+    text-align: center;
+}
+.card p{
+    width: 600px;
+}
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    justify-content: center;
+}
+img{
+    display: flex;
+    justify-content: flex-end;
+}
+.kk{
+    background-color: white;
+    border-radius: 7px;
+    width: 300px;
+    height: 200px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: 800;
+    color: red;
+}
+footer{
+    padding: 46px 0;
+    background-color: black;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.v{
+    border: solid 0px;
+}
